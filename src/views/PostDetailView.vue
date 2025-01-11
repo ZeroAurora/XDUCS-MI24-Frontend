@@ -9,7 +9,7 @@ import { useTitle } from '@vueuse/core'
 import { Divider, Empty, List, NavBar, Skeleton } from 'vant'
 import { ref, watch } from 'vue'
 
-useTitle('帖子列表')
+useTitle('帖子详情')
 
 const post = ref<Post | null>(null)
 const commentsPage = ref(1)

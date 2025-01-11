@@ -7,7 +7,7 @@ import { useTitle } from '@vueuse/core'
 import { Cell, List, NavBar, PullRefresh } from 'vant'
 import { ref } from 'vue'
 
-useTitle('帖子列表')
+useTitle('通知')
 
 const refreshing = ref(false)
 const loading = ref(false)

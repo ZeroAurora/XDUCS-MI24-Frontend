@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import router from '@/router'
+import { useTitle } from '@vueuse/core'
 import { Button } from 'vant'
 import { onBeforeMount } from 'vue'
+
+useTitle('首页')
 
 onBeforeMount(() => {
   if (localStorage.getItem('token') !== null) {
